@@ -251,7 +251,7 @@ class MainClass(object):
                     self.eyList[i] = 0
                     self.exList[i] = random.randint(50, self.WIDTH-self.eSize)
                     print('health-1')
-                elif self.eyList[i] > self.HEIGHT-self.eSize and self.allHealth == 0:
+                elif self.allHealth == 0:
                     for i in range(self.allEnemy):
                         self.eyList[i] = 1000
                     # for i in range(self.allApple):
